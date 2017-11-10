@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
   else{
     var list = "";
     for (let i=0; i<katzDeliLine.length; i++){
-      if (i === katzDeliLine.length){
+      if (i === katzDeliLine.length-1){
         list = list + (i+1) + ". " + katzDeliLine[i];
       }
       else{
