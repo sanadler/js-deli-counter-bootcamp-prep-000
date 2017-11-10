@@ -20,8 +20,8 @@ function currentLine(katzDeliLine){
     return toReturn +  "empty.";
   }
   else{
+    var list = "";
     for (let i=0; i<katzDeliLine.length; i++){
-      var list = ""
       list = list + (i+1) + ". " + katzDeliLine[i] + ", ";
     }
     return toReturn + list;
